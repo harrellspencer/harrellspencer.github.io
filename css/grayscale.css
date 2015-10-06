@@ -12,6 +12,17 @@ body {
     background-color: #000;
 }
 
+.container-fluid li{
+    float: right;
+    display: inline-block;
+    margin: 3px;
+}
+
+.headphones{
+width: 390px;
+height: 171.75px;
+}
+
 html {
     width: 100%;
     height: 100%;
@@ -35,6 +46,7 @@ p {
     font-size: 18px;
     line-height: 1.5;
 }
+
 
 @media(min-width:768px) {
     p {
